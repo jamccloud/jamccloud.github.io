@@ -1,0 +1,71 @@
+/* Object items */
+
+body {
+  background-color: rgb(25, 11, 43);
+}
+
+hr {
+  width: 80%;
+  height: 2px;
+  border: 0;
+  background: linear-gradient(to right, #FF9123, #FFF369);
+}
+
+/* Class items */
+
+.page-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.page-title {
+  background: linear-gradient(to right, #FFF369, #FF9123);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.page-button {
+  z-index: 0;
+  border: none;
+  outline: none;
+  position: relative;
+  border-radius: 5px;
+  background: linear-gradient(to right, #FFF369, #FF9123);
+  cursor: pointer;
+  width: 400px;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+.page-button::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
+  background-color: rgb(25, 11, 43);
+  border-radius: 4px;
+}
+
+.page-button::after {
+  z-index: 1;
+  content: attr(data);
+  font-size: 20px;
+  background: linear-gradient(to left, #FF9123, #FFF369);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.page-button:hover {
+  box-shadow: 0 0 1em 0.3em rgba(255, 243, 105, 0.4);
+}
+
+.page-button:hover::before {
+  background-color: rgb(47, 21, 83); /* or any other color */
+}
