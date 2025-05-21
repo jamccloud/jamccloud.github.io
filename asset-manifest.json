@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3c3b51e.css",
-    "main.js": "/static/js/main.d1ea2f4c.js",
-    "static/js/453.2d893f05.chunk.js": "/static/js/453.2d893f05.chunk.js",
-    "index.html": "/index.html",
-    "main.f3c3b51e.css.map": "/static/css/main.f3c3b51e.css.map",
-    "main.d1ea2f4c.js.map": "/static/js/main.d1ea2f4c.js.map",
-    "453.2d893f05.chunk.js.map": "/static/js/453.2d893f05.chunk.js.map"
+    "main.css": "/www.jordanmccloud.work/static/css/main.f3c3b51e.css",
+    "main.js": "/www.jordanmccloud.work/static/js/main.f6ffada9.js",
+    "static/js/453.2d893f05.chunk.js": "/www.jordanmccloud.work/static/js/453.2d893f05.chunk.js",
+    "index.html": "/www.jordanmccloud.work/index.html",
+    "main.f3c3b51e.css.map": "/www.jordanmccloud.work/static/css/main.f3c3b51e.css.map",
+    "main.f6ffada9.js.map": "/www.jordanmccloud.work/static/js/main.f6ffada9.js.map",
+    "453.2d893f05.chunk.js.map": "/www.jordanmccloud.work/static/js/453.2d893f05.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3c3b51e.css",
-    "static/js/main.d1ea2f4c.js"
+    "static/js/main.f6ffada9.js"
   ]
 }
