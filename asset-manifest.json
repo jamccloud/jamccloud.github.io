@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jamccloud/jamccloud.github.io/static/css/main.f3c3b51e.css",
+    "main.js": "/jamccloud/jamccloud.github.io/static/js/main.be5ca55d.js",
+    "static/js/453.2d893f05.chunk.js": "/jamccloud/jamccloud.github.io/static/js/453.2d893f05.chunk.js",
+    "index.html": "/jamccloud/jamccloud.github.io/index.html",
+    "main.f3c3b51e.css.map": "/jamccloud/jamccloud.github.io/static/css/main.f3c3b51e.css.map",
+    "main.be5ca55d.js.map": "/jamccloud/jamccloud.github.io/static/js/main.be5ca55d.js.map",
+    "453.2d893f05.chunk.js.map": "/jamccloud/jamccloud.github.io/static/js/453.2d893f05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3c3b51e.css",
+    "static/js/main.be5ca55d.js"
+  ]
+}
