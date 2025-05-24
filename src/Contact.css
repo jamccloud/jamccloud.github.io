@@ -1,9 +1,5 @@
 /* Object items */
 
-body {
-  background: linear-gradient(135deg, #19012b, #35071e)
-}
-
 hr {
   width: 80%;
   height: 2px;
@@ -22,13 +18,7 @@ hr {
   min-height: 100vh;
 }
 
-.page-title {
-  background: linear-gradient(to right, #FFF369, #FF9123);
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-.page-button {
+.back-button {
   z-index: 0;
   border: none;
   outline: none;
@@ -41,7 +31,7 @@ hr {
   margin-bottom: 25px;
 }
 
-.page-button::before {
+.back-button::before {
   z-index: -1;
   content: "";
   position: absolute;
@@ -53,7 +43,7 @@ hr {
   border-radius: 4px;
 }
 
-.page-button::after {
+.back-button::after {
   z-index: 1;
   content: attr(data);
   font-size: 20px;
@@ -62,21 +52,24 @@ hr {
   color: transparent;
 }
 
-.page-button:hover {
+.back-button:hover {
   box-shadow: 0 0 1em 0.3em rgba(255, 243, 105, 0.4);
 }
 
-.page-button:hover::before {
+.back-button:hover::before {
   background-color: rgb(47, 21, 83); /* or any other color */
 }
 
-.page-disclaimer {
-  position: absolute;
-  top: 0px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: linear-gradient(to right, #FF9123, #FFF369);
-  -webkit-background-clip: text;
-  color: transparent;
-  z-index: 0;
+.box {
+  border-style: solid;
+  border-image: linear-gradient(to left, #FF9123, #FFF369);
+  border-radius: 20px;
+  border-width: 2px;
+  border-image-slice: 1;
+  margin-bottom: 3%;
+  padding: 1%;
+}
+
+.info {
+  color: #FFF369;
 }
